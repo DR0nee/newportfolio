@@ -1,0 +1,113 @@
+/*global */
+html {
+  font-size: 18px;
+  background-color: lightgrey;
+}
+
+/* Header */
+
+.mainnav {
+  background-color: #0e0961;
+  height: 2.5rem;
+}
+
+.mainnav a, .mainnav span {
+  color: white;
+}
+
+#navbarNavAltMarkup {
+  justify-content: flex-end;
+  background-color:  #0e0961;
+}
+
+/* intro */
+
+.intro {
+  background-image: url(../images/code2.jpg);
+  height: 36rem;
+  overflow: hidden;
+}
+
+.top {
+  width: 70%;
+  height: 10rem;
+  background-color: #0e0961;
+  position: absolute;
+  left: -62rem;
+  top: 5rem;
+  border-radius: 10px;
+}
+
+.middle {
+  width: 70%;
+  height: 10rem;
+  background-color: #f91d1d;
+  top: 15rem;
+  position: absolute;
+  right: -62rem;
+  border-radius: 10px;
+
+
+}
+
+.bottom {
+  width: 70%;
+  height: 10rem;
+  background-color: #01b559;
+  position: absolute;
+  top: 25rem;
+  left: -62rem;
+  border-radius: 10px;
+
+}
+
+#name {
+  font-size: 3rem;
+  color: white;
+}
+
+#professional {
+  font-size: 3rem;
+  color: white;
+  text-
+
+}
+
+#slogen {
+  font-size: 2rem;
+  color: white;
+  text-decoration: underline;
+}
+
+/* Skills */
+.orange {
+  background-color: orange;
+}
+.skills {
+  height: 30rem;
+  background-color: orange;
+  width: 100%;
+}
+
+.skills h1 {
+  padding-top: 1.5rem;
+}
+
+/* Portfolio */
+
+
+.img-responsive {
+  width: 100%;
+  height: 15rem;
+}
+
+.project {
+  padding: 0.5rem;
+  background-color: lightgrey;
+  border: 5px white solid;
+  border-radius: 10px;
+}
+
+.project h3 {
+  padding-top: 1rem;
+}
