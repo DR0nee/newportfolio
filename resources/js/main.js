@@ -5,9 +5,6 @@ $('.top').fadeIn(1000);
 $('.middle').fadeIn(2000);
 $('.bottom').fadeIn(2000);
 
-
-
-
   var lastScrollTop = 0;
     $(window).scroll(function() {
       var scrollTop = $(this).scrollTop();

@@ -29,27 +29,24 @@ html {
   padding-top: 1rem;
   padding-bottom: 1rem;
   margin-top: 3rem;
-  height: 36rem;
+  height: 42rem;
 }
 
 .top {
   width: 65%;
-  height: 10rem;
   background-color: #757575;
   border-radius: 10px;
 }
 
 .middle {
   width: 65%;
-  height: 10rem;
   background-color: #a5a2a2;
   border-radius: 10px;
 }
 
 .bottom {
   width: 65%;
-  height: 10rem;
-  background-color: #d0d8d4;
+  background-color: #c6c4d1;
   border-radius: 10px;
 }
 
@@ -69,8 +66,7 @@ html {
 
 #slogen {
   font-size: 2rem;
-  color: #757575;
-  text-decoration: underline;
+  color: white;
 }
 
 .intro p {
@@ -78,11 +74,8 @@ html {
 }
 
 /* Skills */
-.orange {
-  background-color: orange;
-}
+
 .skills {
-  background-color: orange;
   width: 100%;
 }
 
@@ -92,6 +85,16 @@ html {
 
 .skillsblock , .skillsrow {
   padding-top: 1rem;
+}
+
+.skillsblock {
+    background-color: #e0e0e0;
+  border-radius: 50px;
+}
+
+.skillsblock p {
+font-style: italic;
+font-weight: bold;
 }
 /* Portfolio */
 
