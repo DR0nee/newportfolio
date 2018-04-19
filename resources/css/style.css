@@ -7,8 +7,8 @@ html {
 /* Header */
 
 .mainnav {
-  background-color: #0e0961;
-  height: 2.5rem;
+  height: 3rem;
+  border-bottom: 1px solid black;
 }
 
 .mainnav a, .mainnav span {
@@ -17,48 +17,44 @@ html {
 
 #navbarNavAltMarkup {
   justify-content: flex-end;
-  background-color:  #0e0961;
+  background-color: #f8f9fa;
+  padding-left: 1rem;
 }
 
 /* intro */
 
 .intro {
-  background-image: url(../images/code2.jpg);
+  background-image: url("../images/banner3.jpg");
+  background-repeat:round;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  margin-top: 3rem;
   height: 36rem;
-  overflow: hidden;
 }
 
 .top {
-  width: 70%;
+  width: 65%;
   height: 10rem;
-  background-color: #0e0961;
-  position: absolute;
-  left: -62rem;
-  top: 5rem;
+  background-color: #757575;
   border-radius: 10px;
 }
 
 .middle {
-  width: 70%;
+  width: 65%;
   height: 10rem;
-  background-color: #f91d1d;
-  top: 15rem;
-  position: absolute;
-  right: -62rem;
+  background-color: #a5a2a2;
   border-radius: 10px;
-
-
 }
 
 .bottom {
-  width: 70%;
+  width: 65%;
   height: 10rem;
-  background-color: #01b559;
-  position: absolute;
-  top: 25rem;
-  left: -62rem;
+  background-color: #d0d8d4;
   border-radius: 10px;
+}
 
+.hidden {
+  display: none;
 }
 
 #name {
@@ -69,14 +65,16 @@ html {
 #professional {
   font-size: 3rem;
   color: white;
-  text-
-
 }
 
 #slogen {
   font-size: 2rem;
-  color: white;
+  color: #757575;
   text-decoration: underline;
+}
+
+.intro p {
+  padding-top: 1.5rem;
 }
 
 /* Skills */
@@ -84,7 +82,6 @@ html {
   background-color: orange;
 }
 .skills {
-  height: 30rem;
   background-color: orange;
   width: 100%;
 }
@@ -93,6 +90,9 @@ html {
   padding-top: 1.5rem;
 }
 
+.skillsblock , .skillsrow {
+  padding-top: 1rem;
+}
 /* Portfolio */
 
 

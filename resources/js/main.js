@@ -1,8 +1,12 @@
 $(document).ready(function(){
 
-$('.top').animate({left: 238},3000,"linear");
-$('.middle').animate({right: 237},3000,"linear");
-$('.bottom').animate({left: 237},3000,"linear");
+
+$('.top').fadeIn(1000);
+$('.middle').fadeIn(2000);
+$('.bottom').fadeIn(2000);
+
+
+
 
   var lastScrollTop = 0;
     $(window).scroll(function() {

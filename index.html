@@ -23,16 +23,16 @@
   <body>
 
     <!-- Header navbar -->
-    <nav class="navbar navbar-expand-lg fixed-top  mainnav">
+    <nav class="navbar navbar-expand-lg fixed-top navbar-light bg-light  mainnav">
       <a class="navbar-brand" href="#">K T Web Developement</a>
-      <button class="navbar-toggler" type="button" data-toggle="collapse"
+      <button class="navbar-toggler navbar-light bg-light" type="button" data-toggle="collapse"
       data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup"
       aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon">Menu</span>
+        <span class="navbar-toggler-icon"></span>
       </button>
       <div class="collapse navbar-collapse navbar-right" id="navbarNavAltMarkup">
         <div class="navbar-nav">
-          <a class="nav-item nav-link active" href="#">About me <span class="sr-only">(current)</span></a>
+          <a class="nav-item nav-link" href="#">About me <span class="sr-only">(current)</span></a>
           <a class="nav-item nav-link" href="#">Portfolio</a>
           <a class="nav-item nav-link" href="#">contact Me</a>
         </div>
@@ -41,14 +41,14 @@
 
 
 <!-- introduction -->
- <div class="jumbotoron intro">
-   <div class="top d-flex justify-content-center align-items-center" >
+ <div class="jumbotoron intro d-flex justify-content-center flex-column align-items-center">
+   <div class="top  justify-content-center align-items-center  text-center hidden" >
      <p id="name">Kristof Torok</p>
    </div>
-   <div class="middle d-flex justify-content-center align-items-center">
+   <div class="middle  justify-content-center align-items-center  text-center hidden">
      <p id="professional">WEB Developer</p>
    </div>
-   <div class="bottom  d-flex text-center align-items-center">
+   <div class="bottom   text-center align-items-center hidden">
      <p id="slogen">Web developer with a passion for creating beautiful, responsive websites.</p>
    </div>
  </div>
@@ -58,13 +58,37 @@
  <section class="orange">
    <div class="container skills">
      <div class="row">
-       <h1 class="col-sm-12 text-center">Technial skills</h1>
+       <h1 class="col-sm-12 text-center">Technical skills</h1>
      </div>
-     <div class="row">
-       <i class="fab fa-html5 col-sm-3 fa-3x"></i>
-       <i class="fab fa-css3 col-sm-3 fa-3x"></i>
-       <i class="fab fa-js col-sm-3 fa-3x"></i>
-       <i class="fas fa-pencil-alt col-sm-3 fa-3x "></i>
+     <div class="row skillsrow">
+       <i class="fab fa-html5 col-sm-4 fa-3x "></i>
+       <i class="fab fa-css3 col-sm-4 fa-3x"></i>
+       <i class="fab fa-js col-sm-4 fa-3x"></i>
+     </div>
+     <div class="row skillsblock">
+       <p class="col-sm-4">For further inquiries about me, my work, or anything
+         else (including, but not limited to: obscure Spanish literature, cats,
+          Mexican food, and being ginger), hit me up!</p>
+       <p class="col-sm-4">For further inquiries about me, my work, or anything
+          else (including, but not limited to: obscure Spanish literature, cats,
+           Mexican food, and being ginger), hit me up!</p>
+       <p class="col-sm-4">While HTML and CSS are declarative languages that tell
+         your browser how to display certain information, JavaScript is a programming
+          language that describes a process. JS is popular because it's lightweight
+           and doesn't slow down your browser (in fact, modern browsers have it built in!).</p>
+     </div>
+     <div class="row skillsrow">
+       <i class="fas fa-pencil-alt col-sm-6 fa-3x "></i>
+       <i class="fab fa-resolving col-sm-6 fa-3x "></i>
+     </div>
+     <div class="row skillsblock">
+       <p class="col-sm-6">For further inquiries about me, my work, or anything
+          else (including, but not limited to: obscure Spanish literature, cats
+          , Mexican food, and being ginger), hit me up!</p>
+       <p class="col-sm-6">Responsive websites look good and are easy to read on
+          any device, whether it's a computer or a smartphone. This is really important,
+           because mobile web use is becoming the dominant form of Internet usage.
+           If your website doesn't have responsive design, it will be inaccessible to the majority of visitors.</p>
      </div>
    </div>
  </section>
@@ -83,10 +107,11 @@
       <div class="image-container">
         <img class="img-responsive" src="resources/images/banner1.jpeg" alt="girl with jimy hendrix vest">
       </div>
-      <h3>JumpStart</h3>
-      <p>These tights are 50 denier, beautifully constructed, hand-dyed, and
-        guaranteed to last (no more ladders!). Made with high quality, completely
-         toxic-free materials. Custom colors available to all backers.</p>
+      <h3>Colmar</h3>
+      <p>Colmar Academy You are tasked with designing and creating the landing
+        page for a new school. You will help them by making informed design decisions
+         about color and typography using the skills you learned last week.
+         You will then implement your design. </p>
     </div>
 
     <div class="col-sm-4 col-xs-12 project">
@@ -103,7 +128,7 @@
       <div class="image-container">
         <img class="img-responsive" src="resources/images/banner3.jpeg" alt=" reflective lights">
       </div>
-      <h3>Colmar academy</h3>
+      <h3>Jump Start</h3>
       <p>I've been traveling around the United States for the past two years.
          I've slept on hundreds of couches, more than a few benches, and
          captured my experiences in this 120 page photo album.</p>
